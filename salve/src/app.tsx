@@ -129,7 +129,7 @@ export async function patchRoutes({ routes }) {
   console.log('salve routes', routes);
 
   if (isQiankun) {
-    routes[0]['component'] = BlankLayout;
-    // routes[1]['component'] = BlankLayout;
+    // routes[0]['component'] = BlankLayout;
+    routes[1]['component'] = BlankLayout;
   }
 }
