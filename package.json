@@ -4,14 +4,15 @@
   "description": "",
   "main": ".prettierrc.js",
   "scripts": {
-      "start": "npm-run-all --parallel start:*",
-      "start:main": "cd main && npm run start",
-      "start:salve": "cd salve && npm run start"
-    },
+    "start": "npm-run-all --parallel start:*",
+    "start:main": "cd main && npm run start",
+    "start:salve": "cd salve && npm run start"
+  },
   "author": "emeiziying",
   "license": "ISC",
   "devDependencies": {
     "@umijs/fabric": "^2.10.2",
+    "lerna": "^4.0.0",
     "npm-run-all": "^4.1.5"
   }
 }
